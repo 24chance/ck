@@ -26,15 +26,15 @@
 
         <div class="menu">
             <span href="#">Menu</span>
+            <div class="sub-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#developers">Developers</a>
+                <a href="#contact">Contact Us</a>
+                <a href="index.html">Login</a>
+                <a class="x" href="#">x</a>
+            </div>
         </div>
-        <div class="sub-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#developers">Developers</a>
-            <a href="#contact">Contact Us</a>
-            <a href="index.html">Login</a>
-            <a class="x" href="#">x</a>
-    </div>
     </nav>
 
     <main>
@@ -174,13 +174,11 @@
                 mininav.classList.remove("sub-links")
                 mininav.classList.add("hidden-sub-links")
                 document.body.style.overflowY = "hidden"
-                document.body.style.overflowX = "hidden"
             }
             else{
                 mininav.classList.remove("hidden-sub-links")
                 mininav.classList.add("sub-links")
                 document.body.style.overflowY = "auto"
-                document.body.style.overflowX = "hidden"
             }
         }
 

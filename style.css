@@ -128,7 +128,6 @@ nav .logo{
     font-size: 25px;
     padding: 10px;
 }
-
 nav .links{
     margin: 0 10px;
 }
@@ -195,7 +194,6 @@ nav .sub-links{
     border-radius: 10px;
     transition: .5s;
 }
-
 nav .hidden-sub-links{
     position: absolute;
     top: 100%;
