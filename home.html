@@ -182,9 +182,9 @@
             }
         }
 
-        x.onclick = () => {
+        x.onclick = (e) => {
+            e.preventDefault()
             mininav.classList.remove("hidden-sub-links")
-            mininav.classList.add("sub-links")
         }
     </script>
 </body>
